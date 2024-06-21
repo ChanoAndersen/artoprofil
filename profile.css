@@ -1,0 +1,43 @@
+#container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#text1 {
+  text-shadow: 0 0 0.2em orange, 1px 1px 1em red, 0 0 1em yellow;
+  font-size: 20pt;
+}
+
+#text2 {
+  text-shadow: 1px 1px 1em red, 0 0 1em yellow, 0 0 0.2em orange;
+  font-size: 20pt;
+}
+
+#eyes {
+  background-size: 300px 400px;
+  mask-size: 300px 400px;
+  background-position: -70px -160px;
+  mask-position: -70px -160px;
+  height: 75px;
+  width: 175px;
+  background-image: url('https://arto.dk/userdata/profilephoto/b56169c6d65fb59211f4db8bca3efb5bd589247ce110c73365.jpg');
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgNDAwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzAwMDtzdHJva2Utd2lkdGg6MH08L3N0eWxlPjwvZGVmcz48ZWxsaXBzZSBjbGFzcz0iY2xzLTEiIGN4PSIxMTIuOTUiIGN5PSIxOTUuMjUiIHJ4PSIxMC4wMSIgcnk9IjI3LjY2IiB0cmFuc2Zvcm09InJvdGF0ZSgtODcuMjQgMTEyLjk1MyAxOTUuMjUpIi8+PGVsbGlwc2UgY2xhc3M9ImNscy0xIiBjeD0iMjA2LjkyIiBjeT0iMjAxLjMzIiByeD0iMjguMDgiIHJ5PSIxMCIvPjwvc3ZnPg==');
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-image: url(http://artoman.com/profil/FinalWelcomeAnimation.gif);
+}
